@@ -1,0 +1,16 @@
+*{
+    background-color: var(--CorBackground);
+    color: var(--CorPadrao);
+    
+}
+
+:root {
+    --CorBackground: #131313;
+    --CorPadrao: #E3E3E3;    
+    --FontePadrao: Arial, sans-serif;
+    --FonteDestaque1: 'Oswald', sans-serif;
+    
+}
+
+
+

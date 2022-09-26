@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 *{
     background-color: var(--CorBackground);
     color: var(--CorPadrao);
@@ -5,8 +7,11 @@
 }
 
 :root {
+    --CorPadrao: #e2e2e2;
     --CorBackground: #131313;
-    --CorPadrao: #E3E3E3;    
+    --CorMain: #252525;
+    --CorHeader:#393939;
+    --CorFooter: #010101;
     --FontePadrao: Arial, sans-serif;
     --FonteDestaque1: 'Oswald', sans-serif;
     

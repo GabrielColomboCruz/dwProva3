@@ -9,12 +9,10 @@
 * {
     font-family: var(--FontePadrao);
     color: var(--CorPadrao);
-    text-align: center;
+    text-align: center;    
 }
 
-p{
-    text-align: justify;
-}
+
 
 :root {
     --CorPadrao: #e2e2e2;
@@ -32,15 +30,7 @@ body {
     background-color: var(--CorBackGround);
 
 }
-#LinkEsterior{    
-    color: var(--CorFooter);
-    font-size: large;
-}
 
-a#LinkEsterior::after {   
-        content: '🔗';
-        font-size: large;
-}
 
 header {
     background-color: var(--CorHeader);    
@@ -63,10 +53,10 @@ main {
 
     background-color: var(--CorMain);
     padding: 20px;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 10px;
+   
     box-shadow: 4px 4px 10px black    ;
     margin-top: 20px;
 }
@@ -97,9 +87,14 @@ h1 {
 }
 
 
+.card  img{
+    border-radius:10px ;
+    width: 20vw;
+    height: 20vw;
+}
 .card{
-    width: 25vw;
-    height: 370px;
+    width: 20vw;
+    height: 25vw;
     background-color: var(--CorBackGround);
     display: inline-block;
     margin: 10px;
@@ -117,17 +112,18 @@ h1 {
     box-shadow: 2px 2px 10px black    ;
 }
 
-.imgHistoria{
-    width: 50vw;
+.Apresentacao{
+    flex-wrap: nowrap;
+    border-radius: 20px;
+    
+}
+.ApresentacaoImg{
+    width: 35vw;
+    height: 35vw;
+    padding: 10px;
     border-radius: 20px;
 }
 
-.imgCard{
-    width: 25vw;
-    height: 300px;
-    border-radius: 10px;
-    display: flex;
-}
 
 .imgCardOutros{
     width: 35vw;
@@ -145,6 +141,7 @@ h1 {
     border-radius: 10px;
     margin-top: 20px;
 }
+
 
 aside{
     background-color: var(--CorHeader);

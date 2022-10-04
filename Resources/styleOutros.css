@@ -124,7 +124,10 @@ h1 {
     border-radius: 20px;
 }
 
-
+.imgPersonagens{
+width: 60vw;
+height: 60vw;
+}
 .imgCardOutros{
     width: 35vw;
     height: 300px;

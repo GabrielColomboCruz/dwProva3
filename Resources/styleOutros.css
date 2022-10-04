@@ -47,7 +47,12 @@ nav {
     text-decoration: dotted;
 }
 
-
+#apresentacao{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
 
 main {
 
@@ -126,7 +131,7 @@ h1 {
 
 .imgPersonagens{
 width: 60vw;
-height: 60vw;
+height: 80vw;
 }
 .imgCardOutros{
     width: 35vw;
